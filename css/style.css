@@ -1,0 +1,294 @@
+/* INIZIO NAV */
+.container_fisso{
+    height: 90px;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.container_fisso h2{
+    color: white;
+    float: left;
+    font-size: 35px;
+    padding-top: 3px;
+    font-weight: 700;
+}
+
+.container_fisso ul{
+    list-style: none;
+    float: right;
+    line-height: 90px;
+}
+
+.container_fisso li{
+    display: inline-block;
+    color: white;
+    padding-left: 25px;
+}
+
+.container_fisso h3{
+    font-size: 18px;
+}
+/* FINE NAV */
+
+/* INIZIO HEADER */
+header{
+    background-color: #1abc9c;
+    margin-top: 90px;
+}
+
+.avatar img{
+    height: 280px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.avatar{
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.intestazione{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.intestazione h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.intestazione hr{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.left{
+    margin-left: 70px;
+    float: left;
+}
+
+.stella span{
+    float: left;
+    font-size: 40px;
+    padding: 0 15px;
+}
+
+.right{
+    float: left;
+}
+
+.sotto_titoli{
+    padding-top: 15px;
+}
+
+.sotto_titoli span{
+    font-size: 27px;
+}
+/* FINE HEADER */
+/* INIZIO PORTFOLIO */
+
+.portfolio{
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.titolo_portfolio h2{
+    font-size: 50px;
+    color: #353c45;
+    font-weight: 650;
+    padding-top: 55px;
+}
+
+.stella_nera hr{
+    width: 30%;
+    border: 3px solid #353c45 ;
+    border-radius: 3px;
+}
+
+.stella_nera span{
+    float: left;
+    font-size: 30px;
+    padding: 0 15px;
+    padding-top: 5px;
+}
+
+.cards{
+    background-color: red;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cards.casetta{
+    background-color: #ba4c63;
+}
+
+.cards.torta{
+    background-color: #1fa4b6;
+}
+
+.cards.circo{
+    background-color: #130f0f;
+}
+
+.cards.joystick{
+    background-color: #1d83c1;
+}
+
+.cards.cassaforte{
+    background-color: #1037b5;
+    margin-bottom: 50px;
+}
+
+.cards.sottomarino{
+    background-color: #ccb2a3;
+}
+
+.schermo_hover{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(26, 188, 156, 0.8);
+    visibility: hidden;
+    border-radius: 10px;
+}
+
+.schermo_hover span{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+}
+
+.cards:hover .schermo_hover{
+    visibility: visible;
+}
+/* FINE PORTFOLIO */
+
+/* INIZIO ABOUT */
+.about{
+    background-color: #1abc9c;
+}
+
+.titolo_about h2{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 650;
+    padding-top: 55px;
+}
+
+.stella hr{
+    width: 30%;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+}
+
+.stella span{
+    float: left;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0 15px;
+    padding-top: 5px;
+}
+
+.paragrago_about{
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+.paragrago_about p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 450;
+}
+
+.button_dowload button{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #1abc9c;
+    margin-bottom: 40px;
+    border: 1px solid #ffffff;
+}
+/* FINE ABOUT */
+
+/* INIZIO CONTACT */
+.titolo_contact h2{
+    font-size: 50px;
+    color: #353c45;
+    font-weight: 650;
+    padding-top: 55px;
+}
+
+.form input{
+    font-size: 20px;
+    border: none;
+}
+
+.form{
+    margin-bottom: 90px;
+}
+
+.form hr{
+    color: #353c45;
+}
+
+.send button{
+    background-color: #1abc9c;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+/* FINE CONTACT */
+
+/* INIZIO FOOTER */
+
+footer{
+    background-color: #2c3e50;
+    height: 300px;
+}
+
+footer .container{
+    padding-top: 30px;
+}
+
+footer .row{
+    color: #ffffff;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer i{
+    width: calc(100% / 5);
+    font-size: 22px;
+}
+
+p #about_green{
+    color: #1abc9c;
+}
+
+.bg_darkblue{
+    background-color: #1a252f;
+    color: #ffffff;
+}
+
+.bg_darkblue p{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
